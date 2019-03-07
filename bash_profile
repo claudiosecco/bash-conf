@@ -3,6 +3,8 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 alias get='curl -OL'
 alias g='grep -i'
 alias lr='ls -hartl'
+# if using Ubuntu from microsoft store on windows10
+# alias winuser="cd /mnt/c/Users/'Claudio Secco/'"
 
 # use following commands to configure prompt and tab completion
 # $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
@@ -21,4 +23,5 @@ source ~/.git-completion.bash
 #initialize homebrew ruby environment
 #eval "$(rbenv init -)"
 
-eval $(keychain --eval --quiet id_rsa)
+# arch using keychain
+# eval $(keychain --eval --quiet id_rsa)
