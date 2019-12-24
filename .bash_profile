@@ -1,16 +1,14 @@
 # set PATH so it includes user's private bin directories
-PATH="/opt/scripts:$HOME/bin:$HOME/.local/bin:$PATH"
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 alias get='curl -OL'
 alias g='grep -i'
-alias ls='ls --color=auto'
 alias lr='ls -hartl'
-
-# if using Ubuntu from microsoft store on windows10
-# alias winuser="cd /mnt/c/Users/'Claudio Secco/'"
-# info: find linux environment in C:\Users\Claudio Secco\AppData\
-#       Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # use following commands to configure prompt and tab completion
+# $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
+# $ curl -o ~/.git-completion.bash -OL https://claudiosecco.github.io/website/.git-completion.bash
 # $ chmod +x ~/.git-prompt.sh
 # $ chmod +x ~/.git-completion.bash
 
@@ -25,5 +23,5 @@ source ~/.git-completion.bash
 #initialize homebrew ruby environment
 #eval "$(rbenv init -)"
 
-# arch using keychain
-# eval $(keychain --eval --quiet id_rsa)
+eval $(keychain --eval --quiet id_rsa)
+
