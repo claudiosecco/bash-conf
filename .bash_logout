@@ -4,8 +4,12 @@
 
 if [ "$SHLVL" = 1 ]; then
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
+ fi
 
 # exclude private commands from history
 history -a
-sed -i /ghex/d ~/.bash_history
+# in linux:
+#sed -i /ghex/d ~/.bash_history
+# in mac
+sed -i'.bak' /ghex/d ~/.bash_history
+rm .bash_history.bak
