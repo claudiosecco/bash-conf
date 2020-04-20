@@ -21,7 +21,11 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/~}\007"'
 source ~/.git-completion.bash
 
 #initialize homebrew ruby environment
-#eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
-eval $(keychain --eval --quiet id_rsa)
+#autoexec keychain in linux
+#eval $(keychain --eval --quiet id_rsa)
 
+# make macOs terminal cp and mv consider dotfiles
+# not sure if it's necessary for linux
+shopt -s dotglob
