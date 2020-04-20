@@ -3,8 +3,10 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 alias get='curl -OL'
 alias g='grep -i'
 alias lr='ls -hartl'
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
+# if linux, need to create pbcopy and pbpaste
+#alias pbcopy='xclip -selection clipboard'
+#alias pbpaste='xclip -selection clipboard -o'
+alias ghex='xxd -r -p ~/Downloads/ghex | pbcopy'
 
 # use following commands to configure prompt and tab completion
 # $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
