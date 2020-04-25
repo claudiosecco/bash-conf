@@ -1,20 +1,17 @@
 # set PATH so it includes user's private bin directories
-PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+#PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 alias get='curl -OL'
 alias g='grep -i'
+alias ls='ls --color=auto'
 alias lr='ls -hartl'
 # if linux, need to create pbcopy and pbpaste
 #alias pbcopy='xclip -selection clipboard'
 #alias pbpaste='xclip -selection clipboard -o'
 alias ghex='xxd -r -p ~/Downloads/ghex | pbcopy'
 
-# use following commands to configure prompt and tab completion
-# $ curl -o ~/.git-prompt.sh -OL https://claudiosecco.github.io/website/.git-prompt.sh
-# $ curl -o ~/.git-completion.bash -OL https://claudiosecco.github.io/website/.git-completion.bash
+# Git configuration
 # $ chmod +x ~/.git-prompt.sh
 # $ chmod +x ~/.git-completion.bash
-
-# Git configuration
 # Branch name in prompt
 source ~/.git-prompt.sh
 PS1='[\W$(__git_ps1 " (%s)")]\$ '
