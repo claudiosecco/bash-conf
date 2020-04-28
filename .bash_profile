@@ -5,8 +5,8 @@ alias g='grep -i'
 alias ls='ls --color=auto'
 alias lr='ls -hartl'
 # if linux, need to create pbcopy and pbpaste
-#alias pbcopy='xclip -selection clipboard'
-#alias pbpaste='xclip -selection clipboard -o'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 alias ghex='xxd -r -p ~/Downloads/ghex | pbcopy'
 
 # Git configuration
@@ -23,8 +23,8 @@ source ~/.git-completion.bash
 eval "$(rbenv init -)"
 
 #autoexec keychain in linux
-#eval $(keychain --eval --quiet id_rsa)
+eval $(keychain --eval --quiet --noask id_rsa)
 
 # make macOs terminal cp and mv consider dotfiles
 # not sure if it's necessary for linux
-shopt -s dotglob
+#shopt -s dotglob
