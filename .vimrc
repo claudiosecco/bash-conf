@@ -43,3 +43,6 @@ set smarttab
 
 " make working directory always the same as the editing file
 set autochdir
+
+" highlight searchs
+set hlsearch
