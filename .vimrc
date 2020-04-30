@@ -22,7 +22,7 @@ set smartcase
 set autoindent
 
 " Display line numbers on the left
-set number
+"set number
 
 " Indentation options, change according to personal preference
 
@@ -40,3 +40,6 @@ set expandtab
 
 " Enable intelligent tabbing and spacing for indentation and alignment
 set smarttab
+
+" make working directory always the same as the editing file
+set autochdir
