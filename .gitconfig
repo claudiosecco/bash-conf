@@ -1,0 +1,7 @@
+[user]
+	email = claudiosecco@hotmail.com
+	name = Claudio Secco
+[core]
+	editor = vim
+[alias]
+  co = checkout
