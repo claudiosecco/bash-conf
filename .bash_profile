@@ -1,5 +1,6 @@
-# set PATH so it includes user's private bin directories
-#PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+#set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+alias rm='rm -i'
 alias get='curl -OL'
 alias g='grep -i'
 alias ls='ls --color=auto'
@@ -8,6 +9,8 @@ alias lr='ls -hartl'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias ghex='xxd -r -p ~/Downloads/ghex | pbcopy'
+# helper to rails users. refer to .cdroot.bash for more details
+alias cdroot='. ~/.cdroot.bash'
 
 # Git configuration
 # $ chmod +x ~/.git-prompt.sh
