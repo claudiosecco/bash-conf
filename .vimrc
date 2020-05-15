@@ -22,7 +22,7 @@ set smartcase
 set autoindent
 
 " Display line numbers on the left
-"set number
+set number
 
 " Indentation options, change according to personal preference
 
@@ -42,7 +42,14 @@ set expandtab
 set smarttab
 
 " make working directory always the same as the editing file
-set autochdir
+" set autochdir
 
 " highlight searchs
 set hlsearch
+
+" open NERDTree with Ctrl + \
+map <C-\> :NERDTreeToggle<CR>
+
+" disable auto comment in new line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
