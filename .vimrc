@@ -53,3 +53,16 @@ map <C-\> :NERDTreeToggle<CR>
 " disable auto comment in new line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+" some auto-closers
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+inoremap <%% <%   %><left><left><left><left>
+inoremap <%= <%=   %><left><left><left><left>
+inoremap <div <div><CR></div><ESC>O
+inoremap <body <body><CR></body><ESC>O
+inoremap ,,d def<CR>end<ESC>O
