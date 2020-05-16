@@ -61,10 +61,11 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-inoremap ,,% <%   %><left><left><left><left>
-inoremap ,,= <%=   %><left><left><left><left>
+inoremap ,,% <%  %><left><left><left>
+inoremap ,,= <%=  %><left><left><left>
 inoremap ,,div <div><CR></div><ESC>O
-inoremap ,,body <body><CR></body><ESC>O
+inoremap ,,h <></><left><left><left><left>
 inoremap ,,def def<CR>end<ESC>O
 inoremap ,,do do<CR>end<ESC>O
-inoremap ,,class class<CR>end<ESC>O
+inoremap ,,cl class<CR>end<ESC>O
+inoremap ,,if if<CR>end<ESC>O
