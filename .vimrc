@@ -25,7 +25,6 @@ set autoindent
 set number
 
 " Indentation options, change according to personal preference
-
 " Number of visual spaces per TAB
 set tabstop=2
 
@@ -46,6 +45,10 @@ set smarttab
 
 " highlight searchs
 set hlsearch
+
+" visual 80th column"
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
 
 " open NERDTree with Ctrl + \
 map <C-\> :NERDTreeToggle<CR>
