@@ -53,6 +53,9 @@ set colorcolumn=80
 " open NERDTree with Ctrl + \
 map <C-\> :NERDTreeToggle<CR>
 
+" better command to paste from x clipboard
+map <C-V> "+gP
+
 " disable auto comment in new line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
