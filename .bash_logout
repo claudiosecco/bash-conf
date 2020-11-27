@@ -9,7 +9,7 @@ if [ "$SHLVL" = 1 ]; then
 # exclude private commands from history
 history -a
 # in linux:
-#sed -i /ghex/d ~/.bash_history
+sed -i '/ghex\|GHEX/d' ~/.bash_history
 # in mac
-sed -i'.bak' /ghex/d ~/.bash_history
-rm .bash_history.bak
+#sed -i'.bak' /ghex/d ~/.bash_history
+#rm .bash_history.bak
