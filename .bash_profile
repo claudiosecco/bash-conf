@@ -5,6 +5,8 @@ alias get='curl -OL'
 alias g='grep -i'
 alias ls='ls --color=auto'
 alias lr='ls -hartl'
+# wsl1: win vai para a pasta do usuario no windows
+alias win='cd /mnt/c/Users/claudio.secco'
 # if linux, need to create pbcopy and pbpaste
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
