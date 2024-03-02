@@ -54,7 +54,7 @@ set colorcolumn=80
 map <C-\> :NERDTreeToggle<CR>
 
 " better command to paste from x clipboard
-map <C-V> "+gP
+map <C-p> "+gP
 
 " disable auto comment in new line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -75,3 +75,6 @@ inoremap ,,def def<CR>end<ESC>O
 inoremap ,,do do<CR>end<ESC>O
 inoremap ,,cl class<CR>end<ESC>O
 inoremap ,,if if<CR>end<ESC>O
+
+" prevents vim colors look different inside tmux
+set background=dark
