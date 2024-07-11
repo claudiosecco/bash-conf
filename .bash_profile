@@ -33,3 +33,5 @@ eval $(keychain --eval --quiet --noask id_rsa)
 # make macOs terminal cp and mv consider dotfiles
 # not sure if it's necessary for linux
 #shopt -s dotglob
+
+eval "$(ssh-agent -s)" > /dev/null
