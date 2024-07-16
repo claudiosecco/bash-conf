@@ -6,4 +6,7 @@ These are my personal dot-files. Main features:
 - git tab completion
 - pbcopy and pbpaste in linux
 - helpers to use vim as main text editor
+- find_replace.sh script, 
+-- finds and replaces strings in files inthe current directory recusively
+-- make it executable with `chmod +x find_replace.sh`
 - etc...
