@@ -5,6 +5,7 @@ alias get='curl -OL'
 alias g='grep -i'
 alias ls='ls --color=auto'
 alias lr='ls -hartl'
+alias gitp="git add . && git commit -m 'simple commit' && git push"
 # wsl1: win vai para a pasta do usuario no windows
 alias win='cd /mnt/c/Users/claudio.secco'
 # if linux, need to create pbcopy and pbpaste
