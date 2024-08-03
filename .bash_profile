@@ -15,6 +15,13 @@ alias ghex='xxd -r -p ~/Downloads/ghex | pbcopy'
 # helper to rails users. refer to .cdroot.bash for more details
 alias cdroot='. ~/.cdroot.bash'
 
+# MINING MONERO
+# JOINING MONEROOCEAN
+# VIA SURFACE
+#alias mineocean="xmrig --url gulf.moneroocean.stream:10032 --user YOUR_WALLET --pass WORKER_NAME"
+#VIA TOR
+#alias mineocean="torsocks xmrig --url mo2tor2amawhphlrgyaqlrqx7o27jaj7yldnx3t6jip3ow4bujlwz6id.onion:10032 --user YOUR_WALLET --pass WORKER_NAME"
+
 # Git configuration
 # $ chmod +x ~/.git-prompt.sh
 # $ chmod +x ~/.git-completion.bash
