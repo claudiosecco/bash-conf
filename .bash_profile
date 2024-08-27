@@ -43,3 +43,8 @@ eval $(keychain --eval --quiet --noask id_rsa)
 #shopt -s dotglob
 
 eval "$(ssh-agent -s)" > /dev/null
+
+# If WSL1 using X410
+# Install dbus-x11 and uncomment below
+# export LIBGL_ALWAYS_INDIRECT=1
+# export DISPLAY=127.0.0.1:0.0
