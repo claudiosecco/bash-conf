@@ -78,3 +78,14 @@ inoremap ,,if if<CR>end<ESC>O
 
 " prevents vim colors look different inside tmux
 set background=dark
+
+" Plugins config
+call plug#begin('~/.vim/plugged')
+
+" NERDTree Plugin
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" Open vim and execute :PlugInstall
+" Uncomment below
+" Plug 'preservim/nerdtree'
+
+call plug#end()
