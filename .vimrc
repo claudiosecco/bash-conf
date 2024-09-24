@@ -76,6 +76,9 @@ inoremap ,,do do<CR>end<ESC>O
 inoremap ,,cl class<CR>end<ESC>O
 inoremap ,,if if<CR>end<ESC>O
 
+" better command to copy marked area to clipboard \y
+vnoremap <leader>y "+y
+
 " prevents vim colors look different inside tmux
 set background=dark
 
