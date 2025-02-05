@@ -48,3 +48,6 @@ eval "$(ssh-agent -s)" > /dev/null
 # Install dbus-x11 and uncomment below
 # export LIBGL_ALWAYS_INDIRECT=1
 # export DISPLAY=127.0.0.1:0.0
+
+# Interromper mensagem do MacOs para mudar pra zsh
+export BASH_SILENCE_DEPRECATION_WARNING=1
